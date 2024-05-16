@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #3b0401;
+}
+.body2{
+    background-color: #515857;
+    border: 3px solid rgb(83, 50, 50);
+}
+
+.header-principal {
+    background: linear-gradient(#3b0401, #e93f29); 
+    display: flex;
+    vertical-align: top;
+    padding: 30px;
+    border: 3px solid black;
+}
+
+.datos-header {
+    padding-top: 10px;
+    padding-left: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.parrafo-perfil-profesional {
+    height: 150px;
+    font-size: 18px;
+}
+
+.parrafo-perfil-datos {
+    font-size: 14px;
+}
+.titulo-perfil {
+    background: linear-gradient(#961e18, #e76554); 
+    border: 3px solid black;
+    text-align: center;
+    color: aliceblue;
+}
+.section-perfil {
+    width: 33%;
+    height: 100;
+    float: left;
+    font-size: 14px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(145, 211, 211);
+}
+.section-cursos {
+    width: 33%;
+    height: 100;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(145, 211, 211);
+}
+.section-stack {
+    width: 33%;
+    height: 100;
+    float: right;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(145, 211, 211);
+}
+.section-stack p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenedor-columnas {
+    display: flex;
+    height: 700px;
+    border: 3px solid black;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    background-color: rgba(204, 0, 255, 0.212);
+}
