@@ -1,81 +1,77 @@
 * {
     padding: 0;
-    margin: 5px 5px 5px 5px;
+    margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #3b0401;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
-.body2{
-    background-color: #515857;
+
+.body-container {
+    background-color: #ffffff;
     border: 3px solid rgb(83, 50, 50);
+    padding: 20px;
 }
 
 .header-principal {
+    margin-top: 3vh;
     background: linear-gradient(#3b0401, #e93f29); 
     display: flex;
-    vertical-align: top;
-    padding: 30px;
+    align-items: center;
+    padding: 20px;
     border: 3px solid black;
+    color: #fff;
+}
+
+.header-principal img {
+    width: 100px; /* Ajusta según sea necesario */
+    height: auto;
+    border-radius: 50%;
 }
 
 .datos-header {
-    padding-top: 10px;
-    padding-left: 80px;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-}
-.parrafo-perfil-profesional {
-    height: 150px;
-    font-size: 18px;
+    margin-left: 20px;
 }
 
-.parrafo-perfil-datos {
-    font-size: 14px;
-}
 .titulo-perfil {
-    background: linear-gradient(#961e18, #e76554); 
+    background: linear-gradient(#acad47, #02ffea); 
     border: 3px solid black;
     text-align: center;
     color: aliceblue;
-}
-.section-perfil {
-    width: 33%;
-    height: 100;
-    float: left;
-    font-size: 14px;
-    border: 3px solid black;
     padding: 10px;
-    margin: 5px 5px 5px 5px;
-    background-color: rgb(145, 211, 211);
+    margin: 10px 0;
 }
-.section-cursos {
-    width: 33%;
-    height: 100;
-    display: inline-block;
-    border: 3px solid black;
-    padding: 10px;
-    margin: 5px 5px 5px 5px;
-    background-color: rgb(145, 211, 211);
-}
-.section-stack {
-    width: 33%;
-    height: 100;
-    float: right;
-    border: 3px solid black;
-    padding: 10px;
-    margin: 5px 5px 5px 5px;
-    background-color: rgb(145, 211, 211);
-}
-.section-stack p{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 .contenedor-columnas {
     display: flex;
-    height: 700px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(0, 183, 255);
+}
+
+.section-perfil, .section-cursos, .section-stack {
+    flex: 1;
+    min-width: 250px;
+    background-color: rgba(255, 230, 0, 0.397);
     border: 3px solid black;
-    margin: 5px 5px 5px 5px;
-    padding: 5px;
-    background-color: rgba(204, 0, 255, 0.212);
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.section-perfil {
+    width: 100%;
+}
+
+.parrafo-perfil-profesional, .parrafo-perfil-datos {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.section-stack p {
+    margin: 20px 0;
 }
